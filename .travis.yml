@@ -1,6 +1,6 @@
 language: generic
 
 after_success:
-git checkout master
-git merge Brnch1_of_MrgDemo
+$git checkout master
+$git merge Brnch1_of_MrgDemo
   
