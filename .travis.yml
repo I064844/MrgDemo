@@ -1,7 +1,7 @@
-language: generic
+language: sh
 
 after_success:
-script: echo$COMPILE SUCCESS
+#script: echo$COMPILE SUCCESS
 sh 'git checkout master'
 sh 'git merge Brnch1_of_MrgDemo'
 sh 'git push origin master'
