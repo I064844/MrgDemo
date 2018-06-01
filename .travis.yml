@@ -2,4 +2,5 @@ language: generic
 
 after_success:
 script: echo$COMPILE SUCCESS
-#git merge 
+git merge Brnch1_of_MrgDemo
+git push origin master
