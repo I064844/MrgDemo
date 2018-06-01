@@ -2,7 +2,7 @@ language: generic
 
 after_success:
 script: echo$COMPILE SUCCESS
-sh git checkout master
-sh git merge Brnch1_of_MrgDemo
-sh git push origin master
+sh 'git checkout master'
+sh 'git merge Brnch1_of_MrgDemo'
+sh 'git push origin master'
 
