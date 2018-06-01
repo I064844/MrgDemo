@@ -1,5 +1,5 @@
 language: generic
 
 after_success:
-&& echo "SUCCESS"
+script: echo$COMPILE SUCCESS
 #git merge 
