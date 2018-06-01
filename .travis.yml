@@ -1,4 +1,4 @@
-language: sh
+language: shell
 
 after_success:
 #script: echo$COMPILE SUCCESS
