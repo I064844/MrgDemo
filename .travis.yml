@@ -1,4 +1,5 @@
 language: generic
 
 after_success:
+&& echo "SUCCESS"
 #git merge 
