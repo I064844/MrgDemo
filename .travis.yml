@@ -1,5 +1,4 @@
 language: generic
 
 after_success:
-
-echo $COMPILE "SUCCESSS"
+script echo$COMPILE "SUCCESSS"
