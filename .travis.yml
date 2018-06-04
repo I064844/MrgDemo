@@ -15,6 +15,6 @@ script: 'git remote add-url origin "https://I064844:Test%40123@github.com/I06484
 script: echo$success beforePush
 script: 'git add .'
 script: 'git commit -m 'push2Master'
-script: 'git push -u origin master'
+script: 'git push -f origin master'
 
 
