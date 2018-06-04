@@ -2,14 +2,15 @@ language: shell
 
 after_success:
 script: 'git remote update:git fetch'
-script: echo$DEPLOY SUCCESS1
+script: echo$DEPLOY afterGitFetch
 script: 'git checkout master'
-script: echo$DEPLOY SUCCESS2
+script: echo$DEPLOY AfterCheckout
 script: 'git pull origin Brnch1_of_MrgDemo'
 script: echo$DEPLOY SUCCESS3
 script: 'git merge Brnch1_of_MrgDemo'
-script: echo$DEPLOY SUCCESS4
+script: echo$DEPLOY AfterMerge
 script: 'git pull --rebase'
+script: echo$DEPLOY AfterRebase
 script: 'git remote set-url origin "https://I064844:Test%40123@github.com/I064844/MrgDemo.git"'
 script: echo$success beforePush
 #script: 'git push -f origin master'
