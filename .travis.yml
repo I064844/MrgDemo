@@ -3,8 +3,8 @@ language: shell
 after_success:
 script: 'git remote update:git fetch'
 script: echo$DEPLOY SUCCESS1
-#script: 'git checkout master'
-#script: echo$DEPLOY SUCCESS2
+script: 'git checkout master'
+script: echo$DEPLOY SUCCESS2
 #script: 'git pull origin Brnch1_of_MrgDemo'
 #script: echo$DEPLOY SUCCESS3
 #script: 'git merge Brnch1_of_MrgDemo'
