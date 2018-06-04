@@ -1,7 +1,5 @@
 language: shell
 
-GH_REPO="github.com/${USER}/${REPO}.git"
-
 after_success:
 
 script: 'git checkout master'
