@@ -1,5 +1,12 @@
 language: shell
 
+env:
+  global:
+ USER="I064844"
+ EMAIL="vignesh.r.s@sap.com"
+ REPO="MrgDemo"
+ GH_REPO="github.com/${USER}/${REPO}.git"
+
 after_success:
 
 script: 'git checkout master'
