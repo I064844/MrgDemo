@@ -2,7 +2,7 @@ language: shell
 
 after_success:
 
-script 'git checkout master'
-script 'git merge Brnch1_of_MrgDemo'
-script 'git push origin master'
+script: 'git checkout master'
+script: 'git merge Brnch1_of_MrgDemo'
+script: 'git push origin master'
 
