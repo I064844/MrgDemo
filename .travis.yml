@@ -1,7 +1,7 @@
 language: shell
 
 after_success:
-
+script: 'git remote update:git fetch'
 script: 'git checkout master'
 script: 'git pull origin Brnch1_of_MrgDemo'
 script: 'git merge Brnch1_of_MrgDemo'
