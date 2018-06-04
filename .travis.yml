@@ -3,7 +3,8 @@ language: shell
 after_success:
 
 script: 'git checkout master'
+script: 'git pull origin Brnch1_of_MrgDemo'
 script: 'git merge Brnch1_of_MrgDemo'
 script: 'git remote set-url origin "https://I064844:Test%40123@git@github.com:I064844/MrgDemo.git"'
-script: 'git push origin master'
+script: 'git push -u origin master'
 
