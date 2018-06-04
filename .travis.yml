@@ -1,8 +1,8 @@
 language: shell
 
 after_success:
-#script: echo$COMPILE SUCCESS
-sh 'git checkout master'
-sh 'git merge Brnch1_of_MrgDemo'
-sh 'git push origin master'
+
+script 'git checkout master'
+script 'git merge Brnch1_of_MrgDemo'
+script 'git push origin master'
 
